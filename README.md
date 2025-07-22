@@ -4,4 +4,6 @@ i can have codes in here
 codes can be .lua, .jbeam or .json
 yknow ya
 
-ok so goodgood ya idk what to put in  here
+json = any json files goes into json branch
+lua = lua files branch
+jbeam = BeamNG parts and stuff branch
