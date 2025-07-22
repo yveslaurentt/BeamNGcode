@@ -6,7 +6,7 @@ function onLoad()
 end
 
 function onTrafficStarted()
- local vars =
+ local vars = -- this can be any name, as long as it is stated in gameplay_traffic.setTrafficVars(any)
   { baseAggression = 0.5, -- any number between 0.2 and 2
     speedLimit = nil, -- can be any number between -1 (off or nil, will use the road's speed limit), 100 -- (360 km/h) also beware, some cars can't reach that speed
     spawnValue = 0.75 -- basically the cars spawn rate, any number between 0 to 3
