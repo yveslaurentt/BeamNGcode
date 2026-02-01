@@ -2,10 +2,11 @@
     "segments":{
         "road":{
             "nodes": ["examplewaypoint1", "examplewaypoint2"],
-            "drivability": 0.7,
+            "drivability":0.7,
+            "gatedRoad":true
             "oneWay":false,
             "flipDirection":false,
-            "speedLimit": 13.900,
+            "speedLimit":13.900,
             "autoLanes":true,
             "lanesLeft":1,
             "lanesRight":1
