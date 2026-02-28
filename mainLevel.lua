@@ -12,7 +12,7 @@ function onTrafficStarted()
     spawnValue = 0.75 -- basically the cars spawn rate, any number between 0 to 3
   } -- if you dont end vars table it wont work obviously, oh and put the vars table first! lua works in order.
   gameplay_traffic.setTrafficVars(vars) -- it sets the vars in the vars table
-  log("I", "trafficVars", "baseAggression =" .. vars.baseAggression .. ", speedLimit = " .. vars.speedLimit) -- shows values in the console
+  --log("I", "trafficVars", "baseAggression =" .. vars.baseAggression .. ", speedLimit = " .. vars.speedLimit) -- shows values in the console
 end
 -- module table, 
 M.onTrafficStarted = onTrafficStarted 
